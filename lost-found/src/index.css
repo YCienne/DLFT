@@ -1,0 +1,94 @@
+/* Global Theme Styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #0A1F44; /* Dark blue background */
+  color: white;
+}
+
+/* Links */
+a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.2s ease-in-out;
+}
+
+a:hover {
+  color: #3A7BD5; /* Light blue hover */
+}
+
+/* Navbar */
+nav {
+  background-color: #0A1F44;
+  padding: 1rem;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  border-bottom: 2px solid #3A7BD5;
+}
+
+/* Buttons */
+button {
+  background-color: #3A7BD5;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+button:hover {
+  background-color: #2a5ea8;
+}
+
+/* Inputs & Textareas */
+input, textarea, select {
+  width: 100%;
+  padding: 8px;
+  margin-top: 4px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+/* Forms */
+form {
+  background: white;
+  color: black;
+  padding: 20px;
+  border-radius: 6px;
+  max-width: 500px;
+  margin: auto;
+  box-shadow: 0px 2px 6px rgba(0,0,0,0.2);
+}
+
+/* Card for Lost/Found Items */
+.card {
+  background: white;
+  color: black;
+  border-radius: 6px;
+  padding: 10px;
+  box-shadow: 0px 2px 6px rgba(0,0,0,0.2);
+  transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.02);
+}
+
+/* Item Image */
+.card img {
+  width: 100%;
+  max-height: 200px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+/* Page Layout */
+.page-container {
+  padding: 20px;
+  max-width: 1200px;
+  margin: auto;
+}
